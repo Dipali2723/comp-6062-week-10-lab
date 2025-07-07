@@ -5,6 +5,7 @@ const app=Vue.createApp({
         return{
             title: 'Week 10 Lab'
         }
+        userInput: ''
     }
 });
 
