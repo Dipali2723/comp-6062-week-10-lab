@@ -1,6 +1,6 @@
 console.log('Loaded!');
 
-const app=vue.createApp({
+const app=Vue.createApp({
     data(){
         return{
             title: 'Week 10 Lab'
