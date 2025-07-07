@@ -6,4 +6,6 @@ const app=vue.createApp({
             title: 'Week 10 Lab'
         }
     }
-})
+});
+
+app.mount('#app');
