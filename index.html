@@ -6,9 +6,13 @@
     <body>
         <div id="app">
             <h1>{{title}}</h1>
-            <input type="text">
-            <input type="text">
-            <h2>{{FullName}}</h2>
+            <input type="text" v-model="user.firstName" placeholder="First Name">
+            <input type="text" v-model="user.lastName" placeholder="Last Name">
+            <p>FullName: {{FullName}}</p>
+            <input type="number" v-model="quantity" placeholder=0 min="0">
+            <p>Price Per Item: ${{PriceperItem}}</p>
+            <p>Total Price: ${{totalprice}}</p>
+            <button @click="clearField"> Clear Fields</button>
         </div>
         <!--Vue.Js Link-->
         <script src="https://unpkg.com/vue@3.4.31/dist/vue.global.js"></script>
